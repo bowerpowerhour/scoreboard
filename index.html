@@ -116,7 +116,7 @@
 
                 <div class="gridZeroInning" id="zeroPoints">
                   <input type="checkbox" name = "checkbox" class="pointsZeroCheckbox" id = "pointsZeroCheckbox" onclick="boxWasChecked(8)">
-                  <label name ="checkboxLabel" class= "pointsZeroPromptLabel" id = "pointsZeroPromptLabel" for="pointsZeroCheckbox">&#160;( +0 )&#160;</label>
+                  <label name ="checkboxLabel" class= "pointsZeroPromptLabel" id = "pointsZeroPromptLabel" for="pointsZeroCheckbox">&#160;No Points&#160;<br>&#160;( +0 )&#160;</label>
                 </div> <!-- end id zeroPoints -->
               </fieldset>
             </div>  <!-- end of 2nd column -->
@@ -384,6 +384,7 @@
             $("#allInningStuff").fadeIn();
             $("#inningInformation").fadeOut();
             $("#gameLog").fadeOut();
+            $("#editPlayers").fadeOut();
           });
         });
 
@@ -438,6 +439,7 @@
             $("#allInningStuff").fadeOut();
             $("#inningInformation").fadeIn();
             $("#gameLog").fadeIn();
+            $("#editPlayers").fadeIn();
           });
         });
 
@@ -467,6 +469,7 @@
             $("#allInningStuff").fadeOut();
             $("#inningInformation").fadeIn();
             $("#gameLog").fadeIn();
+            $("#editPlayers").fadeIn();
           });
         });
 
